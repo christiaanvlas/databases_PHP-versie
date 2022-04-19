@@ -1,4 +1,5 @@
 <?php
 // met dubbele slashes maak je een commentaarregel
-echo 'Hello <strong>world</strong>!!';
+$lijst=array('voornaam' => 'Christiaan', 'woonplaats' => 'Bedum', 'Weerstation' => 'StationBedum');
+echo "<h1>".$lijst['voornaam']." heeft in ".$lijst['woonplaats']." een weerstation genaamd ".$lijst['Weerstation']."</h1>";
 ?>

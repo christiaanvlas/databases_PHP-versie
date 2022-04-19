@@ -30,7 +30,7 @@
       $vader['bedrijf']='IBM';
       $vader['jaar']=1994;
       
-      echo "<h2>".$vader['voornaam']." ".$vader['achternaam']." heeft PHP in ".$vader['jaar']." ontwikkeld bij ".$vader['bedrijf']."</h2>";
+      echo "<h1>".$vader['voornaam']." ".$vader['achternaam']." heeft PHP in ".$vader['jaar']." ontwikkeld bij ".$vader['bedrijf']."</h1>";
    
       ?>
     </p>
